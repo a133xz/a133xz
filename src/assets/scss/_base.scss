@@ -1,0 +1,79 @@
+// Layout
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  font-size: var(--base-font-size);
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "titling-gothic-fb", -apple-system, system-ui, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+#app {
+  position: relative;
+  max-width: 1250px;
+  height: auto;
+  padding: 25px;
+  margin: 0 auto;
+}
+
+nav,
+main {
+  margin: 0 auto;
+  max-width: var(--main-width);
+}
+
+// Reset
+
+h1,
+h2,
+h3,
+a,
+strong {
+  font-weight: 500;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+h3 {
+  font-size: 1rem;
+}
+
+a {
+  transition: opacity 0.2s;
+  text-decoration: none;
+  &:active,
+  &:focus {
+    outline: 2px solid var(--brand-blue);
+    outline-offset: 2px;
+  }
+}
+
+ol,
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+hr {
+  margin-top: var(--spacer);
+}
+
+.font-sm {
+  font-size: 0.8rem;
+}

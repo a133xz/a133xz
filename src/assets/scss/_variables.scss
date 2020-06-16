@@ -1,0 +1,19 @@
+// Default variables
+:root {
+  --base-font-size: 20px;
+  --brand-black: #020202;
+  --brand-white: #f5f4f5;
+  --brand-grey: #b7b4b4;
+  --brand-yellow: #ffff00;
+  --brand-blue: #001eff;
+  --main-width: 620px;
+  --spacer: 3em;
+  --spacer-md: 2em;
+}
+
+// Smaller for mobile
+@media screen and (max-width: 650px) {
+  :root {
+    --base-font-size: 16px;
+  }
+}
