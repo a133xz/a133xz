@@ -1,0 +1,28 @@
+{
+  "name": "a133xz",
+  "private": true,
+  "scripts": {
+    "serve": "gridsome develop",
+    "build": "gridsome build",
+    "lint": "eslint --ext .jsx,.js,.vue ./src --fix",
+    "explore": "gridsome explore",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b gh-pages -d dist"
+  },
+  "dependencies": {
+    "@gridsome/plugin-google-analytics": "^0.1.0",
+    "gh-pages": "^2.2.0",
+    "gridsome": "^0.7.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-loader": "^3.0.3",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "node-sass": "^4.13.1",
+    "prettier": "^1.19.1",
+    "sass-loader": "^8.0.2"
+  }
+}
