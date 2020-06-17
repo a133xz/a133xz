@@ -6,7 +6,7 @@
 
 module.exports = {
   siteName: "Antonio R - Code + Music",
-  siteDescription: "I'm a front-end engineer based in London, building things for the web.",
+  siteDescription: "Front-end engineer based in London, building things for the web.",
   plugins: [
     {
       use: "@gridsome/plugin-google-analytics",
