@@ -29,17 +29,6 @@
           </li>
         </ul>
       </section>
-      <hr />
-      <section>
-        <p>
-          I'm very proud of my friends
-        </p>
-        <ul>
-          <li v-for="(site, index) in friends" :key="index">
-            <a :href="site.link" rel="noopener noreferrer" target="_blank">{{ site.name }}</a>
-          </li>
-        </ul>
-      </section>
     </main>
   </Layout>
 </template>
