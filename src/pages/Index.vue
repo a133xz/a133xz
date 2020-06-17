@@ -57,6 +57,12 @@ export default {
           link: "https://omgcovid.com/",
         },
         {
+          title: "Interaction design experiments",
+          description:
+            "[Alive collab] I work with multidisciplinary artist, Carlos Orti, on critical designs that explore relationships to AI, and social awareness towards big data. This includes doing code on The Ultra Human.",
+          link: "https://www.ortiroig.com/the-ultra-human",
+        },
+        {
           title: "Red Kitchen Magazine",
           description:
             "[Dead project, but alive website] A digital hub for art, literature and all things pop culture. With 40+ contributors and 200+ articles, the project ended with a small, beautiful festival in Madrid.",
