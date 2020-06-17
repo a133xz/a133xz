@@ -13,6 +13,7 @@ header {
 }
 nav {
   a {
+    font-size: 1rem;
     color: var(--brand-grey);
     &.active--exact {
       color: var(--brand-white);
