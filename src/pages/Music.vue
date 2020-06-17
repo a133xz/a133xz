@@ -7,15 +7,10 @@
         Currently, I play bass for Alien Tango.
       </p>
       <p>
-        <a
-          class="font-sm"
-          href="https://soundcloud.com/a133xz/sets"
-          rel="noopener noreferrer"
-          target="_blank"
+        <a href="https://soundcloud.com/a133xz/sets" rel="noopener noreferrer" target="_blank"
           >Visit my Soundcloud</a
         ><br />
         <a
-          class="font-sm"
           href="https://open.spotify.com/user/vblccrugbjuudv3ayg8n06h85?si=SAA_ts-cSYiuHAl0LVvFCA"
           rel="noopener noreferrer"
           target="_blank"
@@ -23,7 +18,7 @@
         >
       </p>
       <section>
-        <ul class="bands">
+        <ul>
           <li v-for="(site, index) in bands" :key="index">
             <a :href="site.link" rel="noopener noreferrer" target="_blank">{{ site.name }}</a>
           </li>
@@ -101,10 +96,10 @@ section {
     font-size: 1.2rem;
   }
 }
-// Custom font size
-.bands {
+section {
   margin-top: var(--spacer);
   li {
+    margin-bottom: 8px;
     &:first-child {
       a {
         font-size: 2rem;

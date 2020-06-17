@@ -9,7 +9,7 @@
       </p>
       <!-- Sometimes I write articles in <span class="link">Dev.to.</span> -->
       <p>To collaborate: fosjdfljdslkf@uxing.world (it's real ✍️)</p>
-      <a class="font-sm" href="https://github.com/a133xz" rel="noopener noreferrer" target="_blank"
+      <a href="https://github.com/a133xz" rel="noopener noreferrer" target="_blank"
         >Visit my Github</a
       >
       <section>
@@ -19,12 +19,10 @@
         <aside v-for="(sideProject, index) in sideProjects" :key="index">
           <h3>{{ sideProject.title }}</h3>
           <p>{{ sideProject.description }}</p>
-          <a class="font-sm" :href="sideProject.link" rel="noopener noreferrer" target="_blank"
-            >Visit the site</a
-          >
+          <a :href="sideProject.link" rel="noopener noreferrer" target="_blank">Visit the site</a>
         </aside>
       </section>
-      <hr class="hr" />
+      <hr />
       <section>
         <p>
           I’ve helped out these A+ companies:
@@ -105,8 +103,14 @@ a {
     background-color: var(--brand-blue);
   }
 }
-.link {
-  display: inline-block;
-  border-bottom: 1px solid var(--brand-white);
+section li {
+  margin-bottom: 8px;
+  a {
+    font-size: 1rem;
+  }
 }
+// .link {
+//   display: inline-block;
+//   border-bottom: 1px solid var(--brand-white);
+// }
 </style>

@@ -56,6 +56,7 @@ h3 {
 a {
   transition: opacity 0.2s;
   text-decoration: none;
+  font-size: 0.8rem;
   &:active,
   &:focus {
     outline: 2px solid var(--brand-blue);
@@ -72,8 +73,4 @@ ul {
 
 hr {
   margin-top: var(--spacer);
-}
-
-.font-sm {
-  font-size: 0.8rem;
 }
