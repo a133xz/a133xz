@@ -1,6 +1,6 @@
 # Personal site 👨‍💻
 
-Like any other portfolio, a collection of my work.
+Like any other portfolio, a collection of my work. The challenge was create a site only using semantic HTML and no CSS classes.
 
 ## Porject Setup ⚙️
 

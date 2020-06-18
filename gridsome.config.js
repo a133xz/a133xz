@@ -7,14 +7,6 @@
 module.exports = {
   siteName: "Antonio R - Code + Music",
   siteDescription: "Front-end engineer based in London, building things for the web.",
-  plugins: [
-    {
-      use: "@gridsome/plugin-google-analytics",
-      options: {
-        id: "",
-      },
-    },
-  ],
   icon: {
     favicon: "./src/assets/icons/favicon.png",
     touchicon: "./src/aseets/icons/apple-touch-icon.png",
