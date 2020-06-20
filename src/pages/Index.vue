@@ -22,6 +22,16 @@
           <a :href="sideProject.link" rel="noopener noreferrer" target="_blank">Visit the site</a>
         </aside>
       </section>
+      <section>
+        <header>
+          <h2>Assorties</h2>
+        </header>
+        <aside v-for="(sideProject, index) in assorties" :key="index">
+          <h3>{{ sideProject.title }}</h3>
+          <p>{{ sideProject.description }}</p>
+          <a :href="sideProject.link" rel="noopener noreferrer" target="_blank">Visit the site</a>
+        </aside>
+      </section>
       <hr />
       <section>
         <p>
@@ -45,7 +55,7 @@ export default {
       style: "background-color: var(--brand-black); color: var(--brand-white);",
     },
   },
-  data: function() {
+  data: function () {
     return {
       sideProjects: [
         {
@@ -65,6 +75,14 @@ export default {
           description:
             "[Dead project, but alive website] A digital hub for art, literature and all things pop culture. With 40+ contributors and 200+ articles, the project ended with a small, beautiful festival in Madrid.",
           link: "https://www.facebook.com/redkitchenmagazine",
+        },
+      ],
+      assorties: [
+        {
+          title: "Electron meets Vue.js and Parcel boilerplate",
+          description:
+            "[Boilerplate] A basic boilerplate to build a multiplatform desktop app using Vue.js, Parcel and Electron.",
+          link: "https://github.com/a133xz/electron-vuejs-parcel-boilerplate",
         },
       ],
       sites: [

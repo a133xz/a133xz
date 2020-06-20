@@ -3,6 +3,6 @@ export default {
   "pathPrefix": "",
   "titleTemplate": "%s - Antonio R - Code + Music",
   "siteUrl": "",
-  "version": "0.7.13",
+  "version": "0.7.17",
   "catchLinks": true
 }
