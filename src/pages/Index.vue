@@ -4,8 +4,9 @@
       <h2>In three seconds</h2>
       <p>Hola, I build things for the web.</p>
       <p>
-        I care about front-end architecture, scalability, Vuejs and Open Source. Along the way, I’ve
-        jumped from Spain to Edinburgh to London.
+        I care about front-end architecture, scalability, Vuejs and Open Source. I've built mobile
+        apps, and helped Fintechs to ship and scale their products. Now, I help the world better
+        understand the internet. Along the way, I’ve jumped from Spain to Edinburgh to London.
       </p>
       <!-- Sometimes I write articles in <span class="link">Dev.to.</span> -->
       <p>To collaborate: fosjdfljdslkf@uxing.world (it's real ✍️)</p>
@@ -14,7 +15,7 @@
       >
       <section>
         <header>
-          <h2>Side projects</h2>
+          <h2>Projects</h2>
         </header>
         <aside v-for="(sideProject, index) in sideProjects" :key="index">
           <h3>{{ sideProject.title }}</h3>
@@ -24,7 +25,7 @@
       </section>
       <section>
         <header>
-          <h2>Assorties</h2>
+          <h2>Misc</h2>
         </header>
         <aside v-for="(sideProject, index) in assorties" :key="index">
           <h3>{{ sideProject.title }}</h3>
@@ -52,8 +53,8 @@ export default {
   name: "About",
   metaInfo: {
     bodyAttrs: {
-      style: "background-color: var(--brand-black); color: var(--brand-white);",
-    },
+      style: "background-color: var(--brand-black); color: var(--brand-white);"
+    }
   },
   data: function () {
     return {
@@ -61,46 +62,52 @@ export default {
         {
           title: "omgCOVID",
           description:
-            "[Alive project] A surreal record of the world in limbo due to COVID-19. It’s made of the strange and the unparalleled. It’s an archive of this significant time, and a reminder of our collective pause. ",
-          link: "https://omgcovid.com/",
+            "[Alive project] A surreal record of the world in limbo due to COVID-19. It’s made of the strange and the unparalleled. It´s an archive of this significant time, and a reminder of our collective pause. ",
+          link: "https://omgcovid.com/"
         },
         {
           title: "Interaction design experiments",
           description:
             "[Alive collab] I work with multidisciplinary artist, Carlos Orti, on critical designs that explore relationships to AI, and social awareness towards big data. This includes doing code on The Ultra Human.",
-          link: "https://www.ortiroig.com/the-ultra-human",
+          link: "https://www.ortiroig.com/the-ultra-human"
         },
         {
           title: "Red Kitchen Magazine",
           description:
             "[Dead project, but alive website] A digital hub for art, literature and all things pop culture. With 40+ contributors and 200+ articles, the project ended with a small, beautiful festival in Madrid.",
-          link: "https://www.facebook.com/redkitchenmagazine",
-        },
+          link: "https://www.facebook.com/redkitchenmagazine"
+        }
       ],
       assorties: [
         {
           title: "Electron meets Vue.js and Parcel boilerplate",
           description:
             "[Boilerplate] A basic boilerplate to build a multiplatform desktop app using Vue.js, Parcel and Electron.",
-          link: "https://github.com/a133xz/electron-vuejs-parcel-boilerplate",
+          link: "https://github.com/a133xz/electron-vuejs-parcel-boilerplate"
         },
+        {
+          title: "Edinburgh Vue.js",
+          description:
+            "[Meetup 2019] I organised the first Vuejs meet-up in Edinburgh where we talked about Vue CLI and the process of building ShareInPay.",
+          link: "https://www.meetup.com/es/Vue-js-Edinburgh/"
+        }
       ],
       sites: [
         {
           name: "Dialexy",
-          link: "https://www.dialexy.com/",
+          link: "https://www.dialexy.com/"
         },
         {
           name: "Bad Seed Creatives",
-          link: "https://www.badseedcreative.com/",
+          link: "https://www.badseedcreative.com/"
         },
         {
           name: "Uxing",
-          link: "https://uxing.world/",
-        },
-      ],
+          link: "https://uxing.world/"
+        }
+      ]
     }
-  },
+  }
 }
 </script>
 

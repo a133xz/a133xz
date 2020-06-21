@@ -21,10 +21,10 @@ export default {
       {
         src: "https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js",
         async: true,
-        defer: true,
-      },
-    ],
-  },
+        defer: true
+      }
+    ]
+  }
 }
 </script>
 

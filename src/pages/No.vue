@@ -17,9 +17,9 @@ export default {
   name: "Home",
   metaInfo: {
     bodyAttrs: {
-      style: "background-color: #f5f2f8;color: var(--brand-black);",
-    },
-  },
+      style: "background-color: #f5f2f8;color: var(--brand-black);"
+    }
+  }
 }
 </script>
 

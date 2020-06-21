@@ -3,7 +3,9 @@
     <hr />
     potato, tomato
     <div>
-      <a href="https://github.com/a133xz" rel="noopener noreferrer" target="_blank">github</a>
+      <a href="https://github.com/a133xz/a133xz" rel="noopener noreferrer" target="_blank"
+        >source code</a
+      >
     </div>
   </footer>
 </template>
@@ -23,9 +25,6 @@ div {
   float: right;
   a {
     color: var(--brand-white);
-    &:first-child {
-      margin-right: 15px;
-    }
   }
 }
 </style>

@@ -33,50 +33,50 @@ export default {
   name: "Music",
   metaInfo: {
     bodyAttrs: {
-      style: "background-color: var(--brand-blue); color: var(--brand-white);",
-    },
+      style: "background-color: var(--brand-blue); color: var(--brand-white);"
+    }
   },
-  data: function() {
+  data: function () {
     return {
       bands: [
         {
           name: "Alien Tango",
-          link: "https://open.spotify.com/artist/7tmmsYFyEytK0nqP3BQfxg?si=KT16SkJbSqGrEaYu1e4z9A",
+          link: "https://open.spotify.com/artist/7tmmsYFyEytK0nqP3BQfxg?si=KT16SkJbSqGrEaYu1e4z9A"
         },
         {
           name: "500 Skies",
           link: "",
-          when: "(1 EP, since 2019)",
+          when: "(1 EP, since 2019)"
         },
         {
           name: "The Nowes",
-          link: "https://www.youtube.com/watch?v=icdtdicVjTQ",
+          link: "https://www.youtube.com/watch?v=icdtdicVjTQ"
         },
         {
           name: "LEONA",
-          link: "https://soundcloud.com/a133xz/sets/leona-after-the-rehearshal",
-        },
+          link: "https://soundcloud.com/a133xz/sets/leona-after-the-rehearshal"
+        }
       ],
       friends: [
         {
           name: "Mala Cotton",
-          link: "https://open.spotify.com/artist/17mQMqtiJVWFebnFbcHo8C?si=uanqlsLGR7eMMADFLZh2Wg",
+          link: "https://open.spotify.com/artist/17mQMqtiJVWFebnFbcHo8C?si=uanqlsLGR7eMMADFLZh2Wg"
         },
         {
           name: "Oso Peligro",
-          link: "https://open.spotify.com/artist/04fmm92KI62SDiiwt9otSW?si=inHsTQU3SGGw6_VUVK_UvA",
+          link: "https://open.spotify.com/artist/04fmm92KI62SDiiwt9otSW?si=inHsTQU3SGGw6_VUVK_UvA"
         },
         {
           name: "Pang Lozano",
-          link: "https://open.spotify.com/artist/0gsbwx5ITRwcc1OdtsKYfK?si=P1ob222yTJiqmHQPau1qTA",
+          link: "https://open.spotify.com/artist/0gsbwx5ITRwcc1OdtsKYfK?si=P1ob222yTJiqmHQPau1qTA"
         },
         {
           name: "PBSR",
-          link: "https://open.spotify.com/artist/1hcR66sinceJiPFq2AgCGs?si=-BmCdAJORIyeJtkCbIqpdw",
-        },
-      ],
+          link: "https://open.spotify.com/artist/1hcR66sinceJiPFq2AgCGs?si=-BmCdAJORIyeJtkCbIqpdw"
+        }
+      ]
     }
-  },
+  }
 }
 </script>
 

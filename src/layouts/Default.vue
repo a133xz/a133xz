@@ -14,7 +14,7 @@ import Footer from "@/components/TheFooter"
 export default {
   components: {
     Header,
-    Footer,
-  },
+    Footer
+  }
 }
 </script>
