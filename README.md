@@ -1,8 +1,8 @@
-# Personal site 👨‍💻
+# 👨‍💻 Personal site
 
 Like any other portfolio, a collection of my work. The challenge was create a site only using semantic HTML and no CSS classes.
 
-## Porject Setup ⚙️
+## ⚙️ Project Setup
 
 This project is created with [Gridsome](https://gridsome.org/) and hosted in [Vercel](https://vercel.com)
 
