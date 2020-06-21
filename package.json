@@ -1,13 +1,26 @@
 {
   "name": "a133xz",
-  "private": true,
+  "description": "Antonio R portfolio",
+  "version": "1.0.0",
+  "author": {
+    "name": "Antonio R"
+  },
+  "keywords": [
+    "gridsome",
+    "vuejs",
+    "semantic-html",
+    "vercel",
+    "portfolio"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/a133xz/a133xz.git"
+  },
+  "license": "MIT",
   "scripts": {
     "serve": "gridsome develop",
     "build": "gridsome build",
-    "lint": "eslint --ext .jsx,.js,.vue ./src --fix",
-    "explore": "gridsome explore",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -b gh-pages -d dist"
+    "lint": "eslint --ext .jsx,.js,.vue ./src --fix"
   },
   "dependencies": {
     "gridsome": "^0.7.17"
