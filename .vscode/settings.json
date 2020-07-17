@@ -3,5 +3,12 @@
     "editor.codeActionsOnSave": {
         "source.fixAll.eslint": true
     },
-    "files.trimTrailingWhitespace": true
+    "files.trimTrailingWhitespace": true,
+    "files.exclude": {
+        "**/**/node_modules": false,
+    },
+    "search.exclude": {
+        "**/node_modules": false,
+        "**/tmp": false,
+    },
 }
