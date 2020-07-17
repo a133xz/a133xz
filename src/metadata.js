@@ -1,5 +1,7 @@
 // Global info
 import config from "../gridsome.config"
+const metaImage = require("./assets/icons/" + config.meta.image)
+
 const metadata = [
   {
     property: "og:type",
@@ -19,7 +21,7 @@ const metadata = [
   },
   {
     property: "og:image",
-    content: config.meta.image
+    content: metaImage
   },
   {
     property: "twitter:card",
@@ -39,7 +41,7 @@ const metadata = [
   },
   {
     property: "twitter:image",
-    content: config.meta.image
+    content: metaImage
   }
 ]
 

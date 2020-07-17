@@ -13,6 +13,6 @@ module.exports = {
   },
   siteUrl: process.env.NOW_URL || "https://antonio-r.now.sh",
   meta: {
-    image: "./src/assets/icons/meta.png"
+    image: "meta.png"
   }
 }
