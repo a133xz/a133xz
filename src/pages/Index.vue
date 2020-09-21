@@ -9,7 +9,6 @@
         understand the internet. Along the way, I’ve jumped from Spain to Edinburgh to London.
       </p>
       <!-- Sometimes I write articles in <span class="link">Dev.to.</span> -->
-      <p>To collaborate: fosjdfljdslkf@uxing.world (it's real ✍️)</p>
       <a href="https://github.com/a133xz" rel="noopener noreferrer" target="_blank"
         >Visit my Github</a
       >
@@ -100,10 +99,6 @@ export default {
         {
           name: "Bad Seed Creatives",
           link: "https://www.badseedcreative.com/"
-        },
-        {
-          name: "Uxing",
-          link: "https://uxing.world/"
         }
       ]
     }
