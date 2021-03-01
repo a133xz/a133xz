@@ -1,17 +1,11 @@
-# 👨‍💻 Personal site
+# 👨‍💻 I'm Antonio
 
-Like any other portfolio, a collection of my work. The challenge was create a site only using semantic HTML and no CSS classes.
+Hola, I build things for the web.
 
-## ⚙️ Project Setup
+I care about front-end architecture, scalability, Vuejs and Open Source. I've built mobile apps, and helped Fintechs to ship and scale their products. Now, I help the world better understand the internet. Along the way, I’ve jumped from Spain to Edinburgh to London.
 
-This project is created with [Gridsome](https://gridsome.org/) and hosted in [Vercel](https://vercel.com)
+## A bit more
 
-- Make sure you have Yarn installed
-- `git clone https://github.com/a133xz/a133xz`
-- `yarn` to install dependencies
-- `yarn serve` to run locally
-- `yarn build` to build the project
+Sometimes I do music and web experiments. You can visit [my website](https://antonio-r.now.sh/) to find more info. 
 
-## 🎉 Big thanks
-
-to [Gridsome](https://gridsome.org/) and the Vue.js community for create tools so cool and easy to use.
+🎹 ✨ Or listen any of [my public spotify]()https://open.spotify.com/user/vblccrugbjuudv3ayg8n06h85?si=LmwXqXK9R3mfSV2xaeMdSA playlists
