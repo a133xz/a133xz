@@ -1,11 +1,12 @@
 # 👨‍💻 I'm Antonio
 
-Hola, I build things for the web.
+Hola, I build things for the web. 
 
-I care about front-end architecture, scalability, Vuejs and Open Source. I've built mobile apps, and helped Fintechs to ship and scale their products. Now, I help the world better understand the internet. Along the way, I’ve jumped from Spain to Edinburgh to London.
+Currently, I’m a technology consultant for startups, specialising in front end architecture, scalability, and Vuejs. In the past, I’ve built mobile apps, and helped Fintechs ship and scale their products.
 
-## A bit more
+📮 I'm always keen to connect. To contact me, visit [my website](https://antonio-r.now.sh/).
 
-- Sometimes I do music and web experiments. 
-- More info & contact on [my website](https://antonio-r.now.sh/). 
-- 🎹 ✨ Or listen any of [my public spotify](https://open.spotify.com/user/vblccrugbjuudv3ayg8n06h85?si=LmwXqXK9R3mfSV2xaeMdSA) playlists.
+### PS.
+- My GitHub is home to a bunch of open source projects, mostly created to solve my friends’ problems
+- Here's [the music](https://open.spotify.com/playlist/0kGOrS5DQn7KvHJLBULkyp?si=47a60857178044b8) I'm listening to lately 
+- Find me between London and Spain
