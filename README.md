@@ -9,4 +9,3 @@ Currently, I’m a technology consultant for startups, specialising in front end
 ### PS.
 - My GitHub is home to a bunch of open source projects, mostly created to solve my friends’ problems
 - Here's [the music](https://open.spotify.com/playlist/0kGOrS5DQn7KvHJLBULkyp?si=47a60857178044b8) I'm listening to lately 
-- Find me between London and Spain
