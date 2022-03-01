@@ -22,7 +22,7 @@ $colors: (
 }
 
 @mixin font-p {
-  font-family: "titling-gothic-fb", $font-fallback;
+  font-family: $font-fallback;
 }
 
 @mixin p-x-spacer-sm {
