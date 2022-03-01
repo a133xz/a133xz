@@ -1,17 +1,43 @@
-# 👨‍💻 Personal site
+# Bootstrap 5 & Gridsome
 
-Like any other portfolio, a collection of my work. The challenge was create a site only using semantic HTML and no CSS classes.
+A super simple Gridsome starter that uses Bootstrap v5
+## Features
 
-## ⚙️ Project Setup
+This starter project includes some of the most useful features for building your website: 
 
-This project is created with [Gridsome](https://gridsome.org/) and hosted in [Vercel](https://vercel.com)
+* **Gridsome -** Vue.js & GraphQL powered framework genrating static files.
+* **Sass -** Professional grade CSS extension with many features.
+* **ESLint -** Statically analyses your code to quickly find problems.
+* **Prettier -** An opinionated code formatter. It's integrated with ESLint. 
+* **Markdown -** Easy and widely used format for writing content or legal pages.
+* **Google Analytics -** Just add your tracking ID in the config.
+* **Sitemap generator -** Automatically generates a sitemap.xml file.
+* **Google Fonts Integration -** Set up in the config. 
+* **SCSS Utilities -** Explore the SCSS folder. Check the utilities and files to code your CSS quicker and cleaner. 
+* **Static Metadata -** Plugin to add Open Graph and Twitter metadata
+* **Sprite SVG Loader -** Explore the `IconLoader.vue` component and learn how to use sprite svg
+* **Vercel config file -** A ready to go config setup with the most common HTTP security headers
+* **Gridsome i18n plugin** 
+* **SEO Friendly** 
 
-- Make sure you have Yarn installed
-- `git clone https://github.com/a133xz/a133xz`
-- `yarn` to install dependencies
-- `yarn serve` to run locally
-- `yarn build` to build the project
+## Demo URL
 
-## 🎉 Big thanks
+https://gridsome-starter-bootstrap5.vercel.app/
+## Installation
 
-to [Gridsome](https://gridsome.org/) and the Vue.js community for create tools so cool and easy to use.
+### 1. Install Gridsome CLI tool if you don't have
+
+`npm install --global @gridsome/cli`
+
+### 2. Create a Gridsome project
+
+1. `gridsome create my-gridsome-site https://github.com/a133xz/gridsome-starter-bootstrap5` to install this starter
+2. `cd my-gridsome-site` to open the folder
+3. `gridsome develop` to start a local dev server at `http://localhost:8080`
+4. Happy coding 🎉🙌
+
+## Thanks
+
+- https://github.com/loke-dev/gridsome-starter-bootstrap
+- https://fontawesome.com/
+- https://getbootstrap.com/

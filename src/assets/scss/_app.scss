@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background: var(--site-secondary);
+}
+
+// Default colors
+:root {
+  @each $color, $value in $colors {
+    --site-#{$color}: #{$value};
+  }
+}
+
+html {
+  font-size: #{$base-font-size}px;
+  @include breakpoint(mobile-only) {
+    font-size: #{$base-font-size-mobile}px !important;
+  }
+  background-color: var(--site-bg);
+}
+
+body {
+  @include font;
+  color: var(--site-body);
+  background-color: var(--site-bg);
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+main {
+  flex-shrink: 0 !important;
+  margin-bottom: 2rem;
+}
+
+footer {
+  margin-top: auto !important;
+}
+
+figure {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: var(--site-body);
+  &:hover {
+    color: var(--site-body);
+  }
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.icon-arrow-up-right {
+  color: var(--site-body);
+}
+
+.link {
+  display: inline-block;
+  font-style: italic;
+  line-height: 0.9;
+  border-bottom: 6px solid var(--site-primary);
+}
+
+.block-secondary {
+  display: inline-block;
+  background: var(--site-secondary);
+  color: var(--site-body);
+  padding: 15px;
+  border: 1px solid var(--site-body);
+  a {
+    color: var(--site-body);
+    .icon-arrow-up-right {
+      color: var(--site-body);
+    }
+  }
+  &__title {
+    margin-bottom: 10px;
+    @include font-size($h3);
+    font-weight: bold;
+  }
+}

@@ -1,20 +1,26 @@
 <template>
-  <div>
+  <div id="app">
+    <SpriteSvg />
     <Header />
-    <!-- <Aside /> -->
-    <slot />
+    <main>
+      <slot />
+    </main>
     <Footer />
   </div>
 </template>
 
 <script>
-import Header from "@/components/TheHeader"
-import Footer from "@/components/TheFooter"
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
+import SpriteSvg from '@/components/Icons';
 
 export default {
+  name: 'DetaultTemplate',
   components: {
+    SpriteSvg,
     Header,
     Footer
   }
-}
+};
 </script>
+

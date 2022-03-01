@@ -1,18 +1,67 @@
-// This is where project configuration and plugin options are located.
-// Learn more: https://gridsome.org/docs/config
-
-// Changes here require a server restart.
-// To restart press CTRL + C in terminal and run `gridsome develop`
-
 module.exports = {
-  siteName: "Antonio R - Code + Music",
-  siteDescription: "Front-end engineer based in London, building things for the web.",
-  icon: {
-    favicon: "./src/assets/icons/favicon.png",
-    touchicon: "./src/assets/icons/apple-touch-icon.png"
+  siteName: 'Antonio R',
+  siteDescription: 'Frontend Engineer based in London',
+  siteUrl: 'https://antonio-r.vercel.app/',
+  plugins: [
+    {
+      use: '@gridsome/plugin-critical',
+      options: {
+        paths: ['/'],
+        width: 1300,
+        height: 900
+      }
+    },
+    {
+      use: '@gridsome/plugin-sitemap',
+      options: {
+        cacheTime: 600000
+      }
+    },
+    {
+      use: 'gridsome-plugin-sass-resources-loader',
+      options: {
+        // provide path to the file with resources
+        resources: ['@/assets/scss/_variables.scss', '@/assets/scss/_utils.scss']
+      }
+    },
+    {
+      use: 'gridsome-plugin-static-metadata',
+      options: {
+        image: '/meta.png',
+        themeColor: '#171c31',
+        robots: true
+      }
+    },
+    {
+      use: 'gridsome-plugin-i18n',
+      options: {
+        locales: ['en'],
+        fallbackLocale: 'en',
+        enablePathRewrite: false,
+        messages: process.env.NODE_ENV === 'production' && {
+          en: require('./src/locales/en.json')
+        }
+      }
+    },
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        baseDir: 'markdown/pages',
+        path: '*.md',
+        typeName: 'MdPage',
+        remark: {
+          externalLinksTarget: '_blank',
+          externalLinksRel: ['nofollow', 'noopener', 'noreferrer']
+        }
+      }
+    }
+  ],
+  css: {
+    loaderOptions: {
+      scss: {}
+    }
   },
-  siteUrl: process.env.NOW_URL || "https://antonio-r.now.sh",
-  meta: {
-    image: "meta.png"
+  templates: {
+    MdPage: '/:fileInfo__name'
   }
 }

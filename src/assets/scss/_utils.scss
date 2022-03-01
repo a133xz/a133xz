@@ -1,0 +1,90 @@
+//
+// Typography
+//
+$font-fallback: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
+  "Helvetica Neue", Arial, sans-serif;
+
+//
+// Rem calc
+//
+@function rem-calc($size) {
+  $remSize: calc($size / $base-font-size) * 100;
+  $remRound: round($remSize);
+  // 2 decimals
+  @return #{calc($remRound / 100)}rem;
+}
+
+//
+// Spacer
+// inspired https://github.com/primer/css/blob/master/src/support/variables/layout.scss
+
+// Our spacing scale
+$spacer-none: 0 !default; // 0
+$spacer-xxs: round(calc($space-unit / 2)) !default; // 4px
+$spacer-xs: rem-calc($space-unit) !default; // 8px
+$spacer-sm: rem-calc($space-unit * 2) !default; // 16px
+$spacer-md: rem-calc($space-unit * 3) !default; // 24px
+$spacer-lg: rem-calc($space-unit * 4) !default; // 32px
+$spacer-xl: rem-calc($space-unit * 5) !default; // 40px
+$spacer-xxl: rem-calc($space-unit * 6) !default; // 40px
+$spacer-4xl: rem-calc($space-unit * 8) !default; // 40px
+
+//
+// Breakpoint
+// from https://github.com/wearethescenery/ether/blob/master/src/_mixins.scss
+$screen-xs: 576px !default;
+$screen-sm: 768px !default;
+$screen-md: 992px !default;
+$screen-lg: 1200px !default;
+$screen-xl: 1400px !default;
+$screen-xxl: 1640px !default;
+
+@mixin breakpoint($class) {
+  @if $class == mobile-only {
+    @media (max-width: #{$screen-sm}) {
+      @content;
+    }
+  } @else if $class == xs {
+    @media (min-width: #{$screen-xs}) {
+      @content;
+    }
+  } @else if $class == sm {
+    @media (min-width: #{$screen-sm}) {
+      @content;
+    }
+  } @else if $class == md {
+    @media (min-width: #{$screen-md}) {
+      @content;
+    }
+  } @else if $class == lg {
+    @media (min-width: #{$screen-lg}) {
+      @content;
+    }
+  } @else if $class == xl {
+    @media (min-width: #{$screen-xl}) {
+      @content;
+    }
+  } @else if $class == xxl {
+    @media (min-width: #{$screen-xxl}) {
+      @content;
+    }
+  } @else {
+    @warn "Breakpoint mixin supports: mobile-only, sm, md, lg";
+  }
+}
+
+//
+// Font
+//
+$h00: rem-calc($base-font-size * 3) !default;
+$h0: rem-calc($base-font-size * 2.5) !default;
+$h1: rem-calc($base-font-size * 2) !default;
+$h2: rem-calc($base-font-size * 1.5) !default;
+$h3: rem-calc($base-font-size * 1.25) !default;
+$h4: rem-calc($base-font-size) !default;
+$h5: rem-calc($base-font-size * 0.875) !default;
+$h6: rem-calc($base-font-size * 0.75) !default;
+
+@mixin font-size($size) {
+  font-size: $size;
+}

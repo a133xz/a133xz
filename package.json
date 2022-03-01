@@ -1,39 +1,28 @@
 {
   "name": "a133xz",
-  "description": "Antonio R portfolio",
-  "version": "1.0.0",
-  "author": {
-    "name": "Antonio R"
-  },
-  "keywords": [
-    "gridsome",
-    "vuejs",
-    "semantic-html",
-    "vercel",
-    "portfolio"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/a133xz/a133xz.git"
-  },
-  "license": "MIT",
   "scripts": {
-    "serve": "gridsome develop",
     "build": "gridsome build",
-    "lint": "eslint --ext .jsx,.js,.vue ./src --fix"
+    "dev": "gridsome develop",
+    "explore": "gridsome explore",
+    "lint": "eslint --fix --ext .js,.jsx,.vue ."
   },
   "dependencies": {
-    "gridsome": "^0.7.17"
-  },
-  "devDependencies": {
-    "babel-eslint": "^10.1.0",
-    "eslint": "^7.2.0",
-    "eslint-config-prettier": "^6.11.0",
-    "eslint-loader": "^4.0.2",
-    "eslint-plugin-prettier": "^3.1.4",
-    "eslint-plugin-vue": "^6.2.2",
-    "node-sass": "^4.14.1",
-    "prettier": "^2.0.5",
-    "sass-loader": "^8.0.2"
+    "@gridsome/plugin-critical": "^0.2.0",
+    "@gridsome/plugin-sitemap": "^0.4.0",
+    "@gridsome/source-filesystem": "^0.6.2",
+    "@gridsome/transformer-remark": "^0.6.4",
+    "@popperjs/core": "^2.11.2",
+    "bootstrap": "^5.1.3",
+    "eslint": "^8.6.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier-vue": "^3.1.0",
+    "eslint-plugin-vue": "^8.2.0",
+    "gridsome": "^0.7.23",
+    "gridsome-plugin-i18n": "^1.6.0",
+    "gridsome-plugin-sass-resources-loader": "^0.0.3",
+    "prettier": "^2.5.1",
+    "sass": "^1.46.0",
+    "sass-loader": "^10.1.1",
+    "gridsome-plugin-static-metadata": "0.0.1"
   }
 }

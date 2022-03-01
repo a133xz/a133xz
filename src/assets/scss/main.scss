@@ -1,4 +1,16 @@
-@import "normalize";
+// Bootstrap
+@import "bootstrap";
+
+// Modules
 @import "variables";
-@import "base";
+@import "utils";
+// Global style
+@import "app";
+
 @import url("https://use.typekit.net/ygs7bpv.css");
+
+// _variables --> base font-size, typography and colours,
+// _utils --> breakpoints, space utilities, rem-cal for the fonts
+// _app --> global styles for the app
+//
+// It's important to say that neither `_utils` or `variable` should have any css

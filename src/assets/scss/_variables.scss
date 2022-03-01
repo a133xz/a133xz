@@ -1,19 +1,40 @@
-// Default variables
-:root {
-  --base-font-size: 20px;
-  --brand-black: #020202;
-  --brand-white: #f5f4f5;
-  --brand-grey: #b7b4b4;
-  --brand-yellow: #ffff00;
-  --brand-blue: #001eff;
-  --main-width: 620px;
-  --spacer: 3em;
-  --spacer-md: 2em;
+// SCSS Variables
+$base-font-size: 18;
+$base-font-size-mobile: 16;
+$space-unit: 8;
+$screen-lg: 1140px;
+
+// Colors
+$colors: (
+  light: #ffffff,
+  body: #171c31,
+  bg: #eff3ff,
+  //bg: #fdf4e5,
+  //bg: #f9fed2,
+  //#ff490c
+  primary: #ceccff,
+  secondary: #dcfcec,
+);
+
+//  Typography Styles
+@mixin font {
+  font-family: "Cormorant", $font-fallback;
 }
 
-// Smaller for mobile
-@media screen and (max-width: 650px) {
-  :root {
-    --base-font-size: 16px;
-  }
+@mixin font-p {
+  font-family: "titling-gothic-fb", $font-fallback;
+}
+
+@mixin p-x-spacer-sm {
+  padding-left: $spacer-sm;
+  padding-right: $spacer-sm;
+}
+
+@mixin background {
+  --gradient-to: #e3eefc;
+  --gradient-from: #f8fcfa;
+  --gradient-stops: var(--gradient-from),
+    var(--gradient-to, rgba(209, 250, 229, 0));
+
+  background-image: linear-gradient(to bottom right, var(--gradient-stops));
 }
