@@ -22,7 +22,7 @@
     "gridsome-plugin-sass-resources-loader": "^0.0.3",
     "gridsome-plugin-static-metadata": "0.0.1",
     "prettier": "^2.5.1",
-    "sass": "^10.1.1",
+    "sass": "^1.49.9",
     "sass-loader": "^10.1.1"
   }
 }
