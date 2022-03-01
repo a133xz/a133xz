@@ -64,4 +64,4 @@ module.exports = {
   templates: {
     MdPage: '/:fileInfo__name'
   }
-}
+};
