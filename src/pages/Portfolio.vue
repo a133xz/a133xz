@@ -6,11 +6,10 @@
           <section>
             <header>
               <h2 class="mb-4">
-                A mix of projects created to explore new technologies, solve web problems, or follow
-                my curiosity.
+                {{ $t('portfolio.title') }}
               </h2>
             </header>
-            <aside v-for="(item, index) in $t('portfolio')" :key="index" class="d-flex">
+            <aside v-for="(item, index) in $t('portfolio.projects')" :key="index" class="d-flex">
               <div class="portfolio-year">
                 <span> {{ item.year }}</span>
               </div>

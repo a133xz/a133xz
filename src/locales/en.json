@@ -66,48 +66,51 @@
       "desc": "As of result of years of creativity through technology, I created Ordinary Finance—simple tools to give you peace of mind about your money."
     }
   },
-  "portfolio": [
-    {
-      "title": "HEIC to PNG/JPG",
-      "description": "[App] HEIC to PNG/JPG desktop app with Electron, Vue.js 3 and Parcel.js 2",
-      "link": "https://github.com/a133xz/electron-heic-png",
-      "year": "2021",
-      "category": "tool"
-    },
-    {
-      "title": "Electron meets Vue.js and Parcel boilerplate",
-      "description": "[Boilerplate] A basic starter to build a multiplatform desktop app using Vue.js, Parcel and Electron.",
-      "link": "https://github.com/a133xz/electron-vuejs-parcel-boilerplate",
-      "year": "2021",
-      "category": "tool"
-    },
-    {
-      "title": "omgCOVID",
-      "description": "[Website] A surreal record of the world in limbo due to COVID-19. It’s made of the strange and the unparalleled. It´s an archive of this significant time, and a reminder of our collective pause. ",
-      "link": "https://omgcovid.vercel.app/",
-      "year": "2020",
-      "category": "site"
-    },
-    {
-      "title": "Interaction design experiments",
-      "description": "[Art] I work with multidisciplinary artist, Carlos Orti, on critical designs that explore relationships to AI, and social awareness towards big data. This includes doing code on The Ultra Human.",
-      "link": "https://www.ortiroig.com/the-ultra-human",
-      "year": "2019",
-      "category": "collab"
-    },
-    {
-      "title": "Edinburgh Vue.js",
-      "description": "[Meetup] I organised the first Vuejs meet-up in Edinburgh where we talked about Vue CLI and the process of building ShareInPay.",
-      "link": "",
-      "year": "2019",
-      "category": "talk"
-    },
-    {
-      "title": "Red Kitchen Magazine",
-      "description": "[Magazine] A digital hub for art, literature and all things pop culture. With 40+ contributors and 200+ articles, the project ended with a small, beautiful festival in Madrid after 4y",
-      "link": "",
-      "year": "2018",
-      "category": "collab"
-    }
-  ]
+  "portfolio": {
+    "title": "Projects created to explore new technologies, solve web problems, or follow my curiosity.",
+    "projects": [
+      {
+        "title": "HEIC to PNG/JPG",
+        "description": "[App] HEIC to PNG/JPG desktop app with Electron, Vue.js 3 and Parcel.js 2",
+        "link": "https://github.com/a133xz/electron-heic-png",
+        "year": "2021",
+        "category": "tool"
+      },
+      {
+        "title": "Electron meets Vue.js and Parcel boilerplate",
+        "description": "[Boilerplate] A basic starter to build a multiplatform desktop app using Vue.js, Parcel and Electron.",
+        "link": "https://github.com/a133xz/electron-vuejs-parcel-boilerplate",
+        "year": "2021",
+        "category": "tool"
+      },
+      {
+        "title": "omgCOVID",
+        "description": "[Website] A surreal record of the world in limbo due to COVID-19. It´s an archive of this significant time and a reminder of our collective pause. ",
+        "link": "https://omgcovid.vercel.app/",
+        "year": "2020",
+        "category": "site"
+      },
+      {
+        "title": "Interaction design experiments",
+        "description": "[Art] I work with multidisciplinary artist, Carlos Orti, on critical designs that explore relationships to AI and social awareness towards big data.",
+        "link": "https://www.ortiroig.com/the-ultra-human",
+        "year": "2019",
+        "category": "collab"
+      },
+      {
+        "title": "Edinburgh Vue.js",
+        "description": "[Meetup] I organised the first Vuejs meetup in Edinburgh, where we talked about Vue CLI and the process of building ShareInPay.",
+        "link": "",
+        "year": "2019",
+        "category": "talk"
+      },
+      {
+        "title": "Red Kitchen Magazine",
+        "description": "[Magazine] A digital hub for art, literature and pop culture. With 40+ contributors and 200+ articles, the project ended with a small, beautiful festival in Madrid after four years.",
+        "link": "",
+        "year": "2018",
+        "category": "collab"
+      }
+    ]
+  }
 }
