@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <div class="container">
+    <div class="container-fluid">
       <div class="row">
         <div class="col">
           <h1 v-html="$t('home.intro')"></h1>
@@ -20,17 +20,6 @@ h1 {
 
   @media (min-width: 1200px) {
     @include font-size($h00);
-  }
-}
-
-@media (min-width: 1400px) {
-  .container-xxl,
-  .container-xl,
-  .container-lg,
-  .container-md,
-  .container-sm,
-  .container {
-    max-width: 98%;
   }
 }
 </style>
