@@ -63,5 +63,25 @@ module.exports = {
   },
   templates: {
     MdPage: '/:fileInfo__name'
+  },
+  chainWebpack: (config) => {
+    config.module
+      .rule('css')
+      .oneOf('normal')
+      .use('postcss-loader')
+      .tap((options) => {
+        options.plugins.unshift(...[require('postcss-import'), require('postcss-nested')]);
+
+        if (process.env.NODE_ENV === 'production') {
+          options.plugins.push(
+            ...[
+              require('@fullhuman/postcss-purgecss')({
+                content: ['src/assets/**/*.css', 'src/**/*.vue', 'src/**/*.js']
+              })
+            ]
+          );
+        }
+        return options;
+      });
   }
 };
