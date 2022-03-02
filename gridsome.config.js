@@ -38,6 +38,7 @@ module.exports = {
         locales: ['en'],
         fallbackLocale: 'en',
         enablePathRewrite: false,
+        enablePathGeneration: false,
         messages: process.env.NODE_ENV === 'production' && {
           en: require('./src/locales/en.json')
         }
