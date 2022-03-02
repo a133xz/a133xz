@@ -1,10 +1,11 @@
 {
   "name": "a133xz",
   "scripts": {
-    "build": "gridsome build",
+    "build": "gridsome build && npm run purge",
     "dev": "gridsome develop",
     "explore": "gridsome explore",
-    "lint": "eslint --fix --ext .js,.jsx,.vue ."
+    "lint": "eslint --fix --ext .js,.jsx,.vue .",
+    "purge": "purgecss --css dist/assets/css/*.css --content 'dist/**/*.html' --output dist/assets/css"
   },
   "dependencies": {
     "@fullhuman/postcss-purgecss": "^4.1.3",
@@ -22,9 +23,8 @@
     "gridsome-plugin-i18n": "^1.6.0",
     "gridsome-plugin-sass-resources-loader": "^0.0.3",
     "gridsome-plugin-static-metadata": "0.0.1",
-    "postcss-import": "^14.0.2",
-    "postcss-nested": "^5.0.6",
     "prettier": "^2.5.1",
+    "purgecss": "^4.1.3",
     "sass": "^1.49.9",
     "sass-loader": "^10.1.1"
   }
