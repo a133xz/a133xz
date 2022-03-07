@@ -1,6 +1,6 @@
 module.exports = {
   siteName: 'Antonio R',
-  siteDescription: 'Frontend Engineer based in London',
+  siteDescription: 'Web app development • Technology consultancy • Based in London',
   siteUrl: 'https://antonio-r.vercel.app/',
   plugins: [
     {
